@@ -2,6 +2,7 @@
    ATELIER GALERIE — SCRIPT.JS
    Navigation à 2 niveaux : Villes → Album → Commande
    + Gestion du formulaire d'Avis Clients (Livre d'Or)
+   + Adresse détaillée (rue / CP / ville) + Téléphone Mondial Relay
    ============================================ */
 
 (function () {
@@ -11,8 +12,8 @@
      ⚙️ CONFIGURATION — À PERSONNALISER
      ========================================== */
   const CONFIG = {
-    FORMSPREE_ENDPOINT: 'https://formspree.io/f/xljrqndb',
-    PAYPAL_USERNAME: 'LouisDeniel895',
+    FORMSPREE_ENDPOINT: 'https://formspree.io/f/VOTRE_ID_FORMSPREE',
+    PAYPAL_USERNAME: 'VOTRE_PSEUDO_PAYPAL',
     CURRENCY_SYMBOL: '€'
   };
 
@@ -379,6 +380,13 @@
 
     const total = updateTotal();
     const formData = new FormData(orderForm);
+
+    const fullAddress = [
+      formData.get('Adresse_Rue'),
+      formData.get('Adresse_CodePostal') + ' ' + formData.get('Adresse_Ville')
+    ].filter(Boolean).join(', ');
+    formData.append('Adresse_Livraison_Complete', fullAddress);
+
     formData.append('Montant_Total', total.toFixed(2) + ' ' + CONFIG.CURRENCY_SYMBOL);
     if (currentCity) {
       formData.append('Ville_Collection', currentCity.cityName + ', ' + currentCity.country);
@@ -429,7 +437,8 @@
       formData.get('Affiche_Choisie'),
       'Format ' + formData.get('Format'),
       'Qte ' + formData.get('Quantite'),
-      formData.get('Prenom') + ' ' + formData.get('Nom')
+      formData.get('Prenom') + ' ' + formData.get('Nom'),
+      'Tel ' + formData.get('Telephone')
     ];
     const note = encodeURIComponent(noteParts.join(' | '));
     const amount = total.toFixed(2);

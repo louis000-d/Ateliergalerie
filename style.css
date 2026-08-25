@@ -2,6 +2,7 @@
    ATELIER GALERIE — STYLE.CSS
    Architecture : Villes → Album → Commande
    + Créateur + Avis Clients / Livre d'Or
+   + Formulaire adresse détaillée + Mondial Relay
    ============================================ */
 
 /* ---------- RESET MODERNE ---------- */
@@ -802,6 +803,22 @@ h1, h2, h3, h4 {
   margin-top: -0.2rem;
 }
 
+/* ---------- MENTION LIVRAISON MONDIAL RELAY ---------- */
+.shipping-note {
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--color-charcoal);
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-gold-soft);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  line-height: 1.5;
+}
+
+.shipping-note strong {
+  color: var(--color-charcoal);
+}
+
 /* ---------- RESPONSIVE (existant) ---------- */
 @media (max-width: 860px) {
   .modal-body {
@@ -1176,5 +1193,8 @@ h1, h2, h3, h4 {
   }
   .rating-star span[aria-hidden="true"] {
     font-size: 1.7rem;
+  }
+  .shipping-note {
+    font-size: 0.82rem;
   }
 }
