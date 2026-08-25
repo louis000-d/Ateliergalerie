@@ -11,8 +11,8 @@
      ⚙️ CONFIGURATION — À PERSONNALISER
      ========================================== */
   const CONFIG = {
-    FORMSPREE_ENDPOINT: 'https://formspree.io/f/VOTRE_ID_FORMSPREE',
-    PAYPAL_USERNAME: 'VOTRE_PSEUDO_PAYPAL',
+    FORMSPREE_ENDPOINT: 'https://formspree.io/f/xljrqndb',
+    PAYPAL_USERNAME: 'LouisDeniel895',
     CURRENCY_SYMBOL: '€'
   };
 
