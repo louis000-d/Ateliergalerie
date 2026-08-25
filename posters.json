@@ -1,0 +1,400 @@
+[
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "category": "France",
+    "coverImage": "Images/Paris/DossierParis.png",
+    "subtitle": "La Ville Lumière, entre élégance et romantisme",
+    "posters": [
+      {
+        "id": "Paris-Tour-eiffel",
+        "title": "Tour Eiffel, Lumière d'Automne",
+        "image": "Images/Paris/Tour-Eiffel.png",
+        "alt": "Affiche artistique minimaliste de la Tour Eiffel à Paris au coucher du soleil",
+        "description": "Une vue épurée et intemporelle de la Tour Eiffel, capturée dans une lumière dorée d'automne. Cette affiche évoque l'élégance parisienne avec une palette de tons chauds et une composition aérée, parfaite pour un intérieur raffiné.",
+        "price": {
+          "A4": 20,
+          "A4 + Cadres": 35
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Paris-Montmartre",
+        "title": "Montmartre, Rues Pittoresques",
+        "image": "Images/Paris/Montmartre.png",
+        "alt": "Affiche artistique des ruelles pavées de Montmartre à Paris avec le Sacré-Cœur",
+        "description": "Les ruelles pavées de Montmartre et la silhouette du Sacré-Cœur composent une scène pleine de charme bohème. Une affiche nostalgique qui capture l'âme artistique de ce quartier emblématique.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Paris-Arc-De-Triomphe",
+        "title": "Arc de Triomphe, Lumière du Soir",
+        "image": "Images/Paris/Arcdetriomphe.png",
+        "alt": "Affiche artistique de l'Arc de Triomphe à Paris avec le ciel coloré du crépuscule",
+        "description": "L'Arc de Triomphe se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit héroïque et l'élégance classique de la ville lumière.",
+        "price": {
+          "A4": 29
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "new-york",
+    "cityName": "New York",
+    "country": "États-Unis",
+    "category": "International",
+    "coverImage": "Images/New York/DossierNewYork.png",
+    "subtitle": "L'énergie électrique de la ville qui ne dort jamais",
+    "posters": [
+      {
+        "id": "newyork-Empire-State-Building",
+        "title": "Empire State, Skyline Doré",
+        "image": "Images/New York/EmpireStateBulding.png",
+        "alt": "Affiche artistique de l'Empire State Building et du skyline de New York au crépuscule",
+        "description": "L'Empire State Building domine le skyline new-yorkais dans une lumière dorée de fin de journée. Une composition graphique et contrastée, idéale pour un intérieur contemporain.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "NewYork-Status-De-La-Liberté",
+        "title": "Statue de la Liberté, Lueur du Soir",
+        "image": "Images/New York/StatusLiberté.png",
+        "alt": "Affiche artistique de la Statue de la Liberté à New York avec le ciel coloré du crépuscule",
+        "description": "La Statue de la Liberté se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit d'indépendance et d'harmonie de la ville.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "NewYork-Centrale-Park",
+        "title": "Central Park, Automne",
+        "image": "Images/New York/CentralePark.png",
+        "alt": "Affiche artistique du Central Park à New York avec les feuilles d'automne",
+        "description": "Le Central Park s'étend dans un paysage d'automne, où les feuilles rouges et jaunes créent une scène chaleureuse et apaisante. Une affiche idyllique qui capture l'esprit naturel de la ville.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "Barcelone",
+    "cityName": "Barcelone",
+    "country": "Espagne",
+    "category": "Méditerranée",
+    "coverImage": "Images/Barcelone/DossierBarcelone.png",
+    "subtitle": "L'architecture unique de la ville lumière",
+    "posters": [
+      {
+        "id": "barcelone-Sagrada-Família",
+        "title": "Sagrada Família, Lueur du Soir",
+        "image": "Images/Barcelone/SagradaFamilia.png",
+        "alt": "Affiche artistique de la Sagrada Família à Barcelone avec le ciel coloré du crépuscule",
+        "description": "La Sagrada Família se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit architectural et spirituel de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "barcelone-Parc-Guell",
+        "title": "Parc Güell, Lueur du Soir",
+        "image": "Images/Barcelone/ParcGuell.png",
+        "alt": "Affiche artistique du Parc Güell à Barcelone avec le ciel coloré du crépuscule",
+        "description": "Le Parc Güell se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit créatif et l'harmonie naturelle de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "barcelone-Casa-Batlló",
+        "title": "Casa Batlló, Lueur du Soir",
+        "image": "Images/Barcelone/CasaBattlo.png",
+        "alt": "Affiche artistique de la Casa Batlló à Barcelone avec le ciel coloré du crépuscule",
+        "description": "La Casa Batlló se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit architectural et spirituel de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "Londres",
+    "cityName": "Londres",
+    "country": "Angleterre",
+    "category": "International",
+    "coverImage": "Images/Londres/DossierLondres.png",
+    "subtitle": "La ville de l'histoire, entre tradition et modernité",
+    "posters": [
+      {
+        "id": "Londres-tower-bridge",
+        "title": "Londres, Tower Bridge",
+        "image": "Images/Londres/TowerBridge.png",
+        "alt": "Affiche artistique de Tower Bridge à Londres avec le ciel coloré du crépuscule",
+        "description": "Tower Bridge se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit architectural et spirituel de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Londres-Buckingham-Palace",
+        "title": "Londres, Buckingham Palace",
+        "image": "Images/Londres/BuckingamPalace.png",
+        "alt": "Affiche artistique de Buckingham Palace à Londres avec le ciel coloré du crépuscule",
+        "description": "Buckingham Palace se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit architectural et spirituel de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Londres-Big-Ben",
+        "title": "Londres, Big Ben",
+        "image": "Images/Londres/BigBen.png",
+        "alt": "Affiche artistique de Big Ben à Londres avec le ciel coloré du crépuscule",
+        "description": "Big Ben se détache dans un paysage teinté par la lumière du crépuscule. Une affiche majestueuse qui incarne l'esprit architectural et spirituel de la ville lumière.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "Lucernes",
+    "cityName": "Lucerne",
+    "country": "Suisse",
+    "category": "Alpes",
+    "coverImage": "Images/Lucerne/DossierLucerne.png",
+    "subtitle": "Le lac de Lucerne, miroir des sommets alpins",
+    "posters": [
+      {
+        "id": "Lucerne-Lac-Des-Quatres-Cantons",
+        "title": "Lucerne, Miroir des Alpes",
+        "image": "Images/Lucerne/LacDesQuatresCantons.png",
+        "alt": "Affiche artistique du lac de Lucerne avec les sommets alpines en arrière-plan",
+        "description": "Le lac de Lucerne s'étend sous les sommets alpins dans une lumière douce et cristalline. Une composition sereine qui capture l'harmonie parfaite entre eau et montagne.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Lucerne-PontDeLaChapelle",
+        "title": "Lucerne, Miroir des Alpes",
+        "image": "Images/Lucerne/PontDeLaChapelle.png",
+        "alt": "Affiche artistique du pont de la chapelle à Lucerne avec les sommets alpines en arrière-plan",
+        "description": "Le pont de la chapelle de Lucerne surplombe le lac dans une lumière douce et cristalline. Une composition sereine qui capture l'harmonie parfaite entre eau et montagne.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Lucerne-Monument-Du-Lions",
+        "title": "Lucerne, Miroir des Alpes",
+        "image": "Images/Lucerne/MonumentsDuLions.png",
+        "alt": "Affiche artistique des monuments du lions à Lucerne avec les sommets alpines en arrière-plan",
+        "description": "Les monuments du lions de Lucerne s'étend sous les sommets alpins dans une lumière douce et cristalline. Une composition sereine qui capture l'harmonie parfaite entre eau et montagne.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "Lisbonne",
+    "cityName": "Lisbonne",
+    "country": "Portugal",
+    "category": "Méditerranée",
+    "coverImage": "Images/Lisbonne/DossierLisbonne.png",
+    "subtitle": "Les rues historiques de Lisbonne au cœur de la Méditerranée",
+    "posters": [
+      {
+        "id": "Lisbonne-Praça-do-Comércio",
+        "title": "Lisbonne, Rues Historiques",
+        "image": "Images/Lisbonne/PracaDoComercio.png",
+        "alt": "Affiche artistique des rues historiques de Lisbonne avec la Méditerranée en arrière-plan",
+        "description": "Les rues historiques de Lisbonne s'étendent le long de la Méditerranée dans une lumière chaleureuse. Une composition colorée qui capture l'âme charmeuse de la ville portugaise.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Lisbonne-Tour-de-Belem",
+        "title": "Lisbonne, Rues Historiques",
+        "image": "Images/Lisbonne/TourDeBelem.png",
+        "alt": "Affiche artistique des rues historiques de Lisbonne avec la Méditerranée en arrière-plan",
+        "description": "Les rues historiques de Lisbonne s'étendent le long de la Méditerranée dans une lumière chaleureuse. Une composition colorée qui capture l'âme charmeuse de la ville portugaise.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Lisbonne-Tramway-28",
+        "title": "Lisbonne, Rues Historiques",
+        "image": "Images/Lisbonne/Tramway28.png",
+        "alt": "Affiche artistique des rues historiques de Lisbonne avec la Méditerranée en arrière-plan",
+        "description": "Les rues historiques de Lisbonne s'étendent le long de la Méditerranée dans une lumière chaleureuse. Une composition colorée qui capture l'âme charmeuse de la ville portugaise.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "Vatican / Rome",
+    "cityName": "Vatican / Rome",
+    "country": "Italie",
+    "category": "Europe",
+    "coverImage": "Images/VaticanRome/DossierVaticanRome.png",
+    "subtitle": "Le Vatican et Rome dans toute leur splendeur",
+    "posters": [
+      {
+        "id": "Vatican-Basilique-Saint-Pierre",
+        "title": "Vatican, Basilique Saint-Pierre",
+        "image": "Images/VaticanRome/BasiliqueStPierre.png",
+        "alt": "Affiche artistique de la Basilique Saint-Pierre au Vatican",
+        "description": "La Basilique Saint-Pierre s'étend majestueusement au cœur du Vatican. Une composition imposante qui rend hommage à l'architecture religieuse et à l'histoire millénaire du lieu.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Rome-Fontaine-de-Trevi",
+        "title": "Rome, Fontaine de Trevi",
+        "image": "Images/VaticanRome/FontaineDeTrevi.png",
+        "alt": "Affiche artistique de la Fontaine de Trevi à Rome",
+        "description": "La Fontaine de Trevi s'étend majestueusement au cœur de Rome. Une composition imposante qui rend hommage à l'architecture historique et à l'histoire millénaire de la ville.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      },
+      {
+        "id": "Rome-Colisée",
+        "title": "Rome, Colisée",
+        "image": "Images/VaticanRome/Colisée.png",
+        "alt": "Affiche artistique du Colisée à Rome",
+        "description": "Le Colisée s'étend majestueusement au cœur de Rome. Une composition imposante qui rend hommage à l'architecture historique et à l'histoire millénaire de la ville.",
+        "price": {
+          "A4": 20
+        },
+        "sizes": [
+          "A4"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "chamonix",
+    "cityName": "Chamonix",
+    "country": "France",
+    "category": "France",
+    "coverImage": "images/chamonix/mont-blanc.jpg",
+    "subtitle": "Les sommets éternels du massif du Mont-Blanc",
+    "posters": [
+      {
+        "id": "chamonix-mont-blanc",
+        "title": "Chamonix, Sommets Éternels",
+        "image": "images/chamonix/mont-blanc.jpg",
+        "alt": "Affiche artistique des sommets enneigés du Mont-Blanc à Chamonix",
+        "description": "Le massif du Mont-Blanc se dresse majestueusement au-dessus de la vallée de Chamonix. Une affiche minérale et graphique qui rend hommage à la grandeur des Alpes françaises.",
+        "price": {
+          "A4": 29,
+          "A3": 45,
+          "A2": 69
+        },
+        "sizes": [
+          "A4",
+          "A3",
+          "A2"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "cote-d-azur",
+    "cityName": "Côte d'Azur",
+    "country": "France",
+    "category": "France",
+    "coverImage": "images/cote-d-azur/riviera.jpg",
+    "subtitle": "Falaises dorées et mer turquoise sur la Riviera",
+    "posters": [
+      {
+        "id": "cotedazur-riviera",
+        "title": "Côte d'Azur, Riviera Éternelle",
+        "image": "images/cote-d-azur/riviera.jpg",
+        "alt": "Affiche artistique de la Côte d'Azur avec falaises méditerranéennes et mer turquoise",
+        "description": "Les falaises dorées plongent dans une mer turquoise le long de la Côte d'Azur. Une évocation lumineuse et raffinée de la Riviera française, entre glamour et nature préservée.",
+        "price": {
+          "A4": 29,
+          "A3": 45,
+          "A2": 69
+        },
+        "sizes": [
+          "A4",
+          "A3",
+          "A2"
+        ]
+      }
+    ]
+  }
+]
