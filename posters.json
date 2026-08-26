@@ -344,12 +344,12 @@
     ]
   },
   {
-    "cityId": "chamonix",
-    "cityName": "Chamonix",
-    "country": "France",
-    "category": "France",
-    "coverImage": "images/chamonix/mont-blanc.jpg",
-    "subtitle": "Les sommets éternels du massif du Mont-Blanc",
+    "cityId": "Iles Grecques",
+    "cityName": "Iles Grecques",
+    "country": "Grèces",
+    "category": "Méditerranée",
+    "coverImage": "Images/Iles Grecques/cover.png",
+    "subtitle": "La beautés des Iles Grecques",
     "posters": [
       {
         "id": "chamonix-mont-blanc",
