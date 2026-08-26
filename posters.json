@@ -496,31 +496,4 @@
       }
     ]
   },
-  {
-    "cityId": "cote-d-azur",
-    "cityName": "Côte d'Azur",
-    "country": "France",
-    "category": "France",
-    "coverImage": "images/cote-d-azur/riviera.jpg",
-    "subtitle": "Falaises dorées et mer turquoise sur la Riviera",
-    "posters": [
-      {
-        "id": "cotedazur-riviera",
-        "title": "Côte d'Azur, Riviera Éternelle",
-        "image": "images/cote-d-azur/riviera.jpg",
-        "alt": "Affiche artistique de la Côte d'Azur avec falaises méditerranéennes et mer turquoise",
-        "description": "Les falaises dorées plongent dans une mer turquoise le long de la Côte d'Azur. Une évocation lumineuse et raffinée de la Riviera française, entre glamour et nature préservée.",
-        "price": {
-          "A4": 29,
-          "A3": 45,
-          "A2": 69
-        },
-        "sizes": [
-          "A4",
-          "A3",
-          "A2"
-        ]
-      }
-    ]
-  }
 ]
