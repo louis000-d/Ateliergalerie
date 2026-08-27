@@ -96,6 +96,7 @@
           "A4"
         ]
       }
+    ]
   },
   {
     "cityId": "Barcelone",
@@ -347,16 +348,18 @@
     "cityName": "Iles Grecques",
     "country": "Grèces",
     "category": "Méditerranée",
-    "coverImage": "Images/Iles Grecques/cover.png",
+    "coverImage": "Images/Iles Grecques/Cover.png",
     "subtitle": "La beautés des Iles Grecques",
     "posters": [
       {
         "id": "santorin",
         "title": "Santorin, Perle des Cyclades",
-        "image": "images/grece/santorin.jpg",
+        "image": "Images/Iles Grecques/Santorin.png",
         "alt": "Affiche artistique de Santorin avec maisons blanches, dômes bleus et mer Égée",
         "description": "Les villages blancs de Santorin surplombent la mer Égée dans une harmonie de bleu et de lumière. Une affiche inspirée de l'architecture emblématique des Cyclades et de la douceur méditerranéenne.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -364,10 +367,12 @@
       {
         "id": "mykonos",
         "title": "Mykonos, Entre Vent et Mer",
-        "image": "images/grece/mykonos.jpg",
+        "image": "Images/Iles Grecques/Mykonos.png",
         "alt": "Affiche artistique de Mykonos avec moulins blancs, maisons cycladiques et mer Égée",
         "description": "Les célèbres moulins blancs de Mykonos dominent les ruelles lumineuses et la mer Égée. Une illustration inspirée de l'élégance et de l'atmosphère unique des Cyclades.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -375,10 +380,12 @@
       {
         "id": "rhodes",
         "title": "Rhodes, Cité Méditerranéenne",
-        "image": "images/grece/rhodes.jpg",
+        "image": "Images/Iles Grecques/Rhodes.png",
         "alt": "Affiche artistique de la vieille ville de Rhodes avec ruelles en pierre et bougainvilliers",
         "description": "Les ruelles de pierre de Rhodes se parent de fleurs et de lumière méditerranéenne. Une affiche inspirée du charme historique de cette île grecque entre architecture ancienne et douceur du sud.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -386,10 +393,12 @@
       {
         "id": "corfou",
         "title": "Corfou, Couleurs Ioniennes",
-        "image": "images/grece/corfou.jpg",
+        "image": "Images/Iles Grecques/Corfou.png",
         "alt": "Affiche artistique de Corfou avec bâtiments vénitiens colorés et mer turquoise",
         "description": "Entre façades colorées, architecture vénitienne et eaux turquoise, Corfou dévoile une Grèce différente et pleine de caractère. Une affiche chaleureuse inspirée des paysages de la mer Ionienne.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -397,10 +406,12 @@
       {
         "id": "milos",
         "title": "Milos, Falaises de Lumière",
-        "image": "images/grece/milos.jpg",
+        "image": "Images/Iles Grecques/Milos.png",
         "alt": "Affiche artistique des falaises blanches de Sarakiniko sur l'île de Milos",
         "description": "Les formations blanches spectaculaires de Sarakiniko plongent dans une mer d'un bleu intense. Une affiche inspirée des paysages presque lunaires et sauvages de l'île de Milos.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -408,10 +419,12 @@
       {
         "id": "paros",
         "title": "Paros, Douceur des Cyclades",
-        "image": "images/grece/paros.jpg",
+        "image": "Images/Iles Grecques/Paros.png",
         "alt": "Affiche artistique de Paros avec village blanc, portes bleues et bougainvilliers",
         "description": "Les ruelles blanches de Paros s'ouvrent sur la mer Égée, entre portes bleues, pierre claire et bougainvilliers colorés. Une affiche inspirée de la douceur et du charme authentique des Cyclades.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -419,10 +432,12 @@
       {
         "id": "naxos",
         "title": "Naxos, Porte des Dieux",
-        "image": "images/grece/naxos.jpg",
+        "image": "Images/Iles Grecques/Naxos.png",
         "alt": "Affiche artistique de la Portara de Naxos face à la mer au coucher du soleil",
         "description": "La majestueuse Portara se dresse face à la mer Égée sous les couleurs dorées du coucher du soleil. Une affiche inspirée de l'histoire antique et de la beauté intemporelle de Naxos.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -430,10 +445,12 @@
       {
         "id": "zakynthos",
         "title": "Zakynthos, Perle Ionienne",
-        "image": "images/grece/zakynthos.jpg",
+        "image": "Images/Iles Grecques/Zante.png",
         "alt": "Affiche artistique de Navagio Beach à Zakynthos avec falaises, eau turquoise et bateau échoué",
         "description": "Depuis les immenses falaises de Zakynthos, la vue plonge sur les eaux turquoise de Navagio Beach et son célèbre bateau échoué. Une affiche spectaculaire inspirée de l'un des paysages les plus emblématiques de Grèce.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -441,10 +458,12 @@
       {
         "id": "skiathos",
         "title": "Skiathos, Île Sauvage",
-        "image": "images/grece/skiathos.jpg",
+        "image": "Images/Iles Grecques/Skiathos.png",
         "alt": "Affiche artistique de Skiathos avec crique turquoise, pins et plages grecques",
         "description": "Entre forêts de pins, criques sauvages et eaux turquoise, Skiathos dévoile une Grèce naturelle et préservée. Une affiche inspirée de la beauté verdoyante des Sporades.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -452,10 +471,12 @@
       {
         "id": "crete",
         "title": "Crète, Île Légendaire",
-        "image": "images/grece/crete.jpg",
+        "image": "Images/Iles Grecques/Crete.jpg",
         "alt": "Affiche artistique de la Crète avec ruelles méditerranéennes, mer turquoise et montagnes",
         "description": "Les ruelles ensoleillées de Crète descendent vers la mer, entre façades colorées, fleurs méditerranéennes et montagnes majestueuses. Une affiche inspirée de l'âme chaleureuse et authentique de la plus grande île grecque.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
@@ -466,7 +487,9 @@
         "image": "images/grece/kefalonia.jpg",
         "alt": "Affiche artistique de Kefalonia avec crique turquoise, falaises et montagnes verdoyantes",
         "description": "Les falaises verdoyantes de Kefalonia plongent dans une mer turquoise aux reflets méditerranéens. Une affiche inspirée des paysages sauvages et spectaculaires de cette magnifique île Ionienne.",
-        "price": 20,
+        "price": {
+          "A4": 20
+        },
         "sizes": [
           "A4"
         ]
